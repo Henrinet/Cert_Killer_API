@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./app.js --exec babel-node",
+    "devstart": "nodemon ./app.js --exec babel-node",
     "test": "mocha"
   },
   "dependencies": {
@@ -12,7 +13,7 @@
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "^1.6.3",
-    "mongodb": "^3.3.4",
+    "mongodb": "latest",
     "mongoose": "^5.7.11",
     "morgan": "~1.9.1",
     "prop-types": "^15.7.2",

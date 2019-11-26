@@ -1,4 +1,4 @@
-import { Test } from '../model';
+import { Test } from '../models';
 
 const TestController = {
     async 
